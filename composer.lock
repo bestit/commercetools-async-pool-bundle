@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7c4c55a08e0fb0c0bbb004bd3d6ed5ab",
-    "content-hash": "9a755f8483c144087448656b58d5bfcd",
+    "hash": "4f81ccd5dfec2fba7b39a349eb7207b4",
+    "content-hash": "eb016978a15712ed82359bd6dbf915c9",
     "packages": [
         {
             "name": "bestit/commercetools-async-pool",
