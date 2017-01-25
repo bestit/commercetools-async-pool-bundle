@@ -1,6 +1,10 @@
 services:
+    best_it_ct_async_pool.request_pool:
+        class: BestIt\CTAsyncPool\Pool
+        arguments: ['@best_it_ct_async_pool.client']
+
     best_it_ct_async_pool.kernel.event_listener.view.ct_pool_flush:
         class: BestIt\CTAsyncPoolBundle\EventListener\FlushPoolOnView
-        arguments: ['@bh.app.commercetools.request.pool']
+        arguments: ['@best_it_ct_async_pool.request_pool']
         tags:
             - { name: kernel.event_listener, event: kernel.view }
