@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7649cfa45bbea122685f048aee3e455b",
+    "content-hash": "447e3434e8009fe82f9629b4a9f5d1b9",
     "packages": [
         {
             "name": "bestit/commercetools-async-pool",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bestit/commercetools-async-pool.git",
-                "reference": "86737f5e5656785b65ddd961d6226688ff0fc192"
+                "reference": "406e2b40dcd6b45d8358eb3b37485146526f1ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bestit/commercetools-async-pool/zipball/86737f5e5656785b65ddd961d6226688ff0fc192",
-                "reference": "86737f5e5656785b65ddd961d6226688ff0fc192",
+                "url": "https://api.github.com/repos/bestit/commercetools-async-pool/zipball/406e2b40dcd6b45d8358eb3b37485146526f1ed4",
+                "reference": "406e2b40dcd6b45d8358eb3b37485146526f1ed4",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "Batch-Processing of a pool asynchronous commercetools requests.",
-            "time": "2017-03-23T07:57:00+00:00"
+            "time": "2017-05-12T09:17:43+00:00"
         },
         {
             "name": "commercetools/php-sdk",
