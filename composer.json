@@ -9,7 +9,7 @@
     "description": "Provides the symfony structure to get the async request pool as a service and a symfony event listener flushing the pool automatically.",
     "require": {
         "php": "^7.0",
-        "commercetools/php-sdk": "^1.4",
+        "commercetools/php-sdk": "^1.4 || ^2.0",
         "bestit/commercetools-async-pool": "^1 || ^2 || ^3",
         "symfony/symfony": "^3.1"
     },
